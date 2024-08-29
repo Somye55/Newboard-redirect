@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './FetchError.module.css'; // Import the CSS module
+import styles from '@/app/styles/fetch-error.module.css'; // Import the CSS module
 
 const FetchError: React.FC = () => {
   return (
