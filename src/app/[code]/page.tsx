@@ -19,7 +19,7 @@ export default function Page({ params }: { params: { code: string } }) {
       const variables = { code };
 
       try {
-        const response = await fetch("http://localhost:8001/graphql", {
+        const response = await fetch("https://server.newboard.app/graphql", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ query, variables }),

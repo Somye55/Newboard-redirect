@@ -2,7 +2,7 @@
 // Simulated server-side function to check health status
 async function checkServerHealth() {
   // Replace with your actual health check logic
-  const response = await fetch("http://localhost:8001/health-nb", {
+  const response = await fetch("https://server.newboard.app/health-nb", {
     method: "GET",
     headers: { "Content-Type": "application/json" }
   });
