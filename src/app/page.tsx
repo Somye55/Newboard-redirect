@@ -1,11 +1,5 @@
-import styles from "./page.module.css";
+import { redirect } from 'next/navigation';
 
 export default function Home() {
-  return (
-    <>
-    <div className={styles.homeContainer}>
-    <h1 className={styles.newboardTitle}>Newboard Redirect</h1>
-</div>
-</>
-  );
+  redirect('https://newboard.io/');
 }
